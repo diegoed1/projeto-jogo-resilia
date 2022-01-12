@@ -127,7 +127,7 @@ function escolhaJ3(){
     if (escolha3 ==1 ) { 
          window.location = "../jason/gameoverj3.html";
          break;
-    }    else if (escolha ==2) { 
+    }    else if (escolha3 ==2) { 
          window.location = "../jason/gameover2j3.html";
          break;
     }
