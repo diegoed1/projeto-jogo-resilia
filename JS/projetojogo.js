@@ -122,23 +122,24 @@ function escolhaJ2(){
 }
 
 function escolhaJ3(){
-    while(escolha3 != 1 || escolha3 != 2 || escolha3 !=3 ){
-    var escolha3 = prompt("Voçê está correndo na floresta e Jason está te alcançando. O que voçê vai fazer? \n Escolha uma opção! \n 1- Se esconder em cima de uma árvore\n 2- Continuar correndo \n 3- Fazer uma armadilha e ser a isca pra Jason cair no rio");
+    while(escolha3 != 1 || escolha3 != 2 || escolha3 !=3  ) {
+    var escolha3 = prompt("Voçê está correndo na floresta e Jason está te alcançando. O que voçê vai fazer? \n Escolha uma opção! \n 1- Se esconder em cima de uma árvore\n 2- Continuar correndo \n 3- Fazer uma armadilha e ser a isca pra Jason cair no rio")
     if (escolha3 ==1 ) { 
          window.location = "../jason/gameoverj3.html";
          break;
-    }    else if (escolha3 ==2) { 
-         window.location = "../jason/gameover2j3.html";
-         break;
+            } else if (escolha3 ==2){  
+                window.location = "../jason/gameover2j3.html";
+            break;
     }
     if(escolha3 ==3) {
         window.location = "../jason/winj.html";
         break;
-    }   else {
-        alert("Digite 1 , 2 ou 3");
+    }   else{
+        alert("Digite 1, 2 ou 3")
     }
-  }      
+  }
 }
+
 
 function escolhaM(){
     while(escolha != 1 || escolha != 2 || escolha !=3 ){
