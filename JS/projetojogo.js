@@ -103,7 +103,7 @@ function escolhaJ(){
 }
 
 function escolhaJ2(){
-    while(escolha2 != 1 || escolha != 2 || escolha !=3 ){
+    while(escolha2 != 1 || escolha2 != 2 || escolha2 !=3 ){
     var escolha2 = prompt("Fuja pela janela dos fundos. Mas antes escolha um objeto da cabana para ajudar na fuga. \n Escolha uma opção! \n 1- Uma pedra \n 2- Uma espingarda \n 3- Uma faca");
     if (escolha2 ==1 ) { 
          window.location = "../jason/fase3jason.html";
@@ -122,7 +122,7 @@ function escolhaJ2(){
 }
 
 function escolhaJ3(){
-    while(escolha3 != 1 || escolha != 2 || escolha !=3 ){
+    while(escolha3 != 1 || escolha3 != 2 || escolha3 !=3 ){
     var escolha3 = prompt("Voçê está correndo na floresta e Jason está te alcançando. O que voçê vai fazer? \n Escolha uma opção! \n 1- Se esconder em cima de uma árvore\n 2- Continuar correndo \n 3- Fazer uma armadilha e ser a isca pra Jason cair no rio");
     if (escolha3 ==1 ) { 
          window.location = "../jason/gameoverj3.html";
